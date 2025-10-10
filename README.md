@@ -1,6 +1,4 @@
 
-# Devops-Batch-B58
-
 
 #  Introduction To Devops
 
