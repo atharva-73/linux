@@ -1,202 +1,232 @@
 
+# Linux Basics
 
-#  Introduction To Devops
-
-## Project
-- A project is like taking on a task that has a clear goal, a plan, and a deadline.
-- simply getting something done, step by step, to achieve a clear result.
-
-## What is an Application?
-- An application is a software program designed to perform specific tasks for the user.
-
-**types of application**
-
-- mobile app (e.g., WhatsApp)
-- web app (e.g., Gmail, Facebook)
-- desktop app (e.g., Microsoft Word)
-
- **Components of Application**
- 
-## 🔹 1. Frontend (Client Side -> Runs in: Browser)
-**Technologies:** 
-- HTML
-- CSS
-- JavaScript
-- React
-- Angular
+## Operating System:
+- An operating system (OS) is a system software that manages computer hardware and software resources 
+- and acts as an intermediary between the user and the hardware.
 
 
+## Linux vs Windows
 
-## 🔹 2. Backend (Server Side-> Runs on: Server)
-- Logic, processing, APIs, handling user requests.
-**Technologies:**
-- Java
-- Node.js
-- Python
-- .Net
-- Go
+| Feature               | Linux                                | Windows                              |
+|-----------------------|---------------------------------------|---------------------------------------|
+| Interface             | CLI (Command Line Interface)         | GUI (Graphical User Interface)        |
+| Usability             | Difficult to use                     | Easy to use                           |
+| Source Code           | Open Source                          | Closed Source                         |
+| Licensing             | No Licensing Required                | Licensing Required                    |
+| Cost                  | Free                                 | Paid                                  |
+| Resource Usage        | Lightweight (Consumes Less Resources)| Heavy (Consumes More Resources)       |
+| Security              | More Secure                          | Less Secure                           |
 
-
-
-## 🔹 3. Database
-- Stores application data.
-
-**Types:**
-
-**SQL:** 
-- MySQL
-- PostgreSQL
-- Oracle
-- Microsoft SQL Server
-
-**NoSQL:** 
-- MongoDB
-- DynamoDB
-- Redis
+![image](https://github.com/user-attachments/assets/328cfe15-54f4-4dea-a313-801b3eeded64)
 
 
-#  Software Development Life Cycle (SDLC)
+## 🧩 Different Types of Operating Systems
 
-- The Software Development Life Cycle (SDLC) is a structured approach to building software, ensuring quality, efficiency, and reliability. 
+- **Batch OS** – Executes batches of jobs with minimal or no user interaction.
+- **Time-Sharing OS** – Allows multiple users to share system resources simultaneously.
+- **Distributed OS** – Manages a group of independent computers as a single system.
+- **Embedded OS** – Designed to run on embedded systems like smartwatches or appliances.
+- **Real-Time OS** – Provides immediate response and is used in time-critical environments.
+- **Network OS** – Enables communication and resource sharing across a network.
+- **Mobile OS** – Optimized for mobile devices like smartphones and tablets.
 
-![image](https://github.com/user-attachments/assets/000076b2-19b5-446c-aa1a-d8bf4b452ca3)
+## 🖧 What is a Server?
 
-
-## 1. Planning
-- Define project goals and scope.
-- Estimate resources, time, and cost.
-- Identify potential risks and solutions.
-
-## 2. Requirement Analysis
-- Gather and document user and system requirements.
-- Analyze technical and business needs.
-- Create a clear specification of deliverables.
-
-## 3. Design
-- Create a blueprint for the software architecture.
-- Define system components, interfaces, and workflows.
-- Ensure design meets functional and non-functional requirements.
-
-## 4. Code
-- Write the code based on design specifications.
-- Build system components and integrate them.
-- Follow coding standards and practices.
-
-## 5. Test
-- Validate the software against requirements.
-- Identify and fix bugs or defects.
-- Perform various testing types (unit, integration, system, user acceptance).
-
-## 6. Deploy
-- Release the software to the production environment.
-- Configure systems and ensure smooth rollout.
-- Provide user access and training, if required.
-
-## 7. Maintenance & Spport
-- Monitor software performance.
-- Update and enhance features based on user feedback.
-- Fix issues and ensure system reliability.
-
----
-## Waterfall vs Agile
-![image](https://github.com/user-attachments/assets/acffc64b-d686-4cb1-837c-289662d70efd)
-
-
-| Aspect               | Waterfall                              | Agile                                   |
-|----------------------|----------------------------------------|----------------------------------------|
-| **Process**          | Step-by-step, one phase at a time.     | Iterative, work in small cycles.       |
-| **Flexibility**      | Hard to change once started.           | Easy to adapt to changes.              |
-| **Planning**         | All planning is done at the start.     | Plans are updated regularly.           |
-| **Delivery**         | Final product delivered at the end.    | Delivered in small parts (sprints).    |
-| **User Involvement** | Minimal after requirements are set.    | High, throughout the process.          |
-| **Testing**          | Happens after development is done.     | Happens during each cycle.             |
-| **Documentation**    | Detailed and extensive.                | Minimal, just the basics.              |
-| **Team Structure**   | Teams work separately (e.g., dev, test). | Teams work together (cross-functional).|
-| **Best For**         | Fixed, unchanging requirements.        | Changing or evolving requirements.     |
-
-
-## Devops
-- DevOps is a combination of development (Dev) and operations (Ops)
-- DevOps is all about automating processes, and continuously improving the software development
-- and deployment pipeline to deliver products quickly and reliably
-
-![image](https://github.com/user-attachments/assets/f8ad13b8-f9ab-40b8-bed0-571a473fb45b)
-
+A **server** is a powerful computer or system that provides data, services, or resources to other computers (clients) over a network. Examples include web servers, file servers, and database servers.
 
 ---
 
-### Capital Expenditure
-- CapEx refers to the money a company invests in assets like buildings, machinery, or equipment that will be used for a long time
+## 🖥️ Desktop OS vs Server OS
 
-### Operational Expenditure
-- This refers to the day-to-day expenses that a company incurs in order to run its business.
-- It includes costs like rent, utilities, wages, office supplies, and other expenses necessary for ongoing business operations.
+| Feature             | Desktop OS                          | Server OS                            |
+|---------------------|--------------------------------------|---------------------------------------|
+| **Purpose**         | Designed for personal daily use     | Designed to manage network resources  |
+| **Users**           | Typically one user at a time        | Supports multiple users simultaneously|
+| **Performance**     | Optimized for user interface & apps | Optimized for stability & performance |
+| **Uptime**          | Can afford restarts or downtime     | Requires high uptime (24/7)           |
+| **GUI**             | GUI-focused for easy use            | Often CLI-based for efficiency        |
+| **Examples**        | Windows 10/11, Ubuntu Desktop       | Windows Server, Ubuntu Server, CentOS |
+| **Security**        | Basic security                      | Advanced security and access control  |
+| **Price**           | Usually cheaper                     | Can be more expensive (licensed)      |
 
 
-### On-Premises vs Cloud
-- Cloud computing is a technology that allows users to access and use computer resources (such as servers, storage, databases, networking, software, and more) over the internet.
+## Linux Architecture
 
-#### On-Premises vs. Cloud Infrastructure
-
-| **Aspect**             | **On-Premises**                                                            | **Cloud**                                                                            |
-|------------------------|----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
-| **Location**           | Company premises or data center                                            | Hosted by a cloud provider                                                           |
-| **Capital Expenditure**| High initial investment                                                    | Pay-as-you-go model                                                                  |
-| **Facilities**         | Requires server rooms and cooling                                           | No physical space or cooling needed                                                  |
-| **Maintenance**        | Handled by the organization                                                 | Managed by the provider                                                              |
-| **Scalability**        | Limited by physical space and hardware                                      | Easily scalable                                                                      |
-| **Disaster Recovery**  | Requires a disaster recovery plan                                           | Built-in disaster recovery options                                                   |
+**Linux architecture has four main components hardware,kernel,shell and user/application**
 
 
 
+**Hardware:** it consists of motherboard ,CPU,HDD etc
 
+**Kernel:** kernel is the heart/core of the OS, kernel communicates with Hardware
 
-# Syllabus Overview
+**Shell:** provides interface to user to communicate with kernel 
 
-## 📁 Linux Fundamentals
-- Basics of Linux commands and navigation  
-- Directory structure & file creation  
-- User and group management  
-- File & directory permissions  
-- Process management  
-- Archiving and compression (tar, gzip, etc.)  
-- Basic networking commands and concepts  
+**Application/user:** Users interact with the system through varies applications such as office, games, etc. 
 
+![image](https://github.com/user-attachments/assets/af5d4a6e-02e7-4a3e-81fb-fd5d3d4bda98)
+
+## Distributions of Linux
+- redhat
+- dabian
+- fedora
+- ubuntu
+- amazon linux
+- kali linux
+- mint
+- suse
+
+    
 ---
 
-## ☁️ AWS Services
-- **EC2** – Virtual servers in the cloud  
-- **VPC** – Virtual private cloud networking  
-- **S3** – Object storage  
-- **IAM** – Identity and access management  
-- **CloudWatch** – Monitoring and logging  
-- **CloudFront** – Content delivery network  
-- **Route 53** – Domain Name System (DNS) service  
-- **Lambda** – Serverless compute  
 
+
+## Linux Basic Commands:
+
+**switch to root user**
+````
+sudo -i
+````
+**shows username**
+````
+whoami
+````
+**shows hostname**
+````
+hostname
+````
+**shows present working dir**
+````
+pwd
+````
+**shows os information**
+````
+cat /etc/os-release
+````
+
+**shows kernel information**
+````
+uname -a
+````
+**display free memory**
+````
+free -h
+````
+
+**display disk info**
+````
+df -h
+````
+**list content**
+````
+ls
+````
+**shows command description**
+````
+man <command>
+````
+
+
+**change directory**
+````
+cd <dirname>
+````
+**back to previous dir**
+````
+cd ..
+````
+- check current shell
+````
+echo $SHELL
+````
+- exit the terminal
+```bash
+exit
+```
+- check live processes
+````
+top
+````
+- check CPU information
+```bash
+lscpu
+```
+- check disk/storage information
+````
+df -h
+````
+- list block devices
+```bash
+lsblk
+```
+- check size of file/dir
+````
+du -sh file/dirname
+````
 ---
 
-## 🔧 DevOps Tools
+## Directory  Structure in  Linux:
 
-### 1. Git
-- Version control system to track code changes  
-- Enables collaboration and project history management  
+-In Linux directory structure   “/”  (slash) is main directory
+- All other directories comes under “/” directory.
 
-### 2. Docker
-- Containerization platform for consistent app deployment  
-- Packages apps with dependencies  
 
-### 3. Kubernetes (K8s)
-- Container orchestration tool  
-- Manages deployment, scaling, and operations of containers  
 
-### 4. Terraform
-- Infrastructure as Code (IaC) tool  
-- Automates cloud resource provisioning  
 
-### 5. Jenkins
-- Automation server for continuous integration and delivery (CI/CD)  
+1. / - The main folder.
 
-### 6. Datadog
-- Monitoring and observability platform  
-- Tracks performance and identifies issues  
+
+2. /bin - Basic commands everyone uses (e.g., ls, cp).
+
+
+3. /sbin - Commands for system admins (e.g., reboot).
+
+
+4. /usr - Programs and tools for users.
+
+
+5. /var - Stores changing files like logs.
+
+
+6. /tmp - Temporary files that auto-delete.
+
+
+7. /etc - System settings and configuration files.
+
+
+8. /dev - Files that connect to hardware (e.g., USB).
+
+
+9. /proc - Info about running programs and the system.
+
+
+10. /sys - Details about hardware and devices.
+
+
+11. /lib - Helper files for programs to run.
+
+
+12. /boot - Files needed to start the computer.
+
+
+13. /home - home dir of local user.
+
+
+14. /opt - Extra programs you install.
+
+
+15. /root - home dir of root user
+
+
+16. /media - Automatically mounted drives (e.g., USB).
+
+
+17. /mnt - Manually mounted drives.
+
+
+18. /srv - Files for server programs (e.g., websites).
+
+
+19. /run - Temporary system files from this boot.
+
